@@ -2,13 +2,12 @@ body {
     line-height: 1.1em;
     letter-spacing: 2px;
     background-image: url("https://i.pinimg.com/564x/c6/30/2a/c6302a3b181bca1ff5106292a897e312.jpg");
-    font-family: Poriet One;
+    font-family:Lucida Sans;
     font-size: 1.1em;
 }
 
 h1 {
     padding-top: 10px;
-    font-family: Walter Turncoat;
 }
 
 form p {
