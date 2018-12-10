@@ -147,8 +147,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <p>4. Which of these is NOT a JavaScript function?</p>
+                    <div class="question5">
+                        <p>5. Which of these is NOT a JavaScript function?</p>
                         <div class="inputs">
                             <div class="form-group">
                                 <label for="alert">
@@ -163,9 +163,60 @@
                                     <span class="circle"></span>
                                     confirm()</label>
                             </div>
+                            <div class="form-group">
+                                <label for="prompt">
+                                    <input value="0" type="radio" name="function" id="prompt">
+                                    <span class="circle"></span>
+                                    prompt()</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="boolean">
+                                    <input value="10" type="radio" name="function" id="boolean">
+                                    <span class="circle"></span>
+                                    boolean</label>
+                            </div>
                         </div>
                     </div>
+                    <div class="question6">
+                        <p>6. What is the DOM in full?</p>
+                        <div class="inputs">
+                            <div class="form-group">
+                                <label for="wrong-1">
+                                    <input value="0" type="radio" name="dom" id="wrong-1">
+                                    <span class="circle"></span>
+                                    Dean Of Meak</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="wrong-2">
+                                    <input value="0" type="radio" name="dom" id="wrong-2">
+                                    <span class="circle"></span>
+                                    Don't Open or Make</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="right">
+                                    <input value="10" type="radio" name="dom" id="right">
+                                    <span class="circle"></span>
+                                    Document Object Model</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="wrong-3">
+                                    <input value="0" type="radio" name="dom" id="wrong-3">
+                                    <span class="circle"></span>
+                                    None of the above</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="button">
+                        <button id="submit" class="btn">SUBMIT</button>
+                    </div>
                 </div>
+            </div>
+            <div id="score">
+                <p class="text-center name-display"></p>
+                <p class="text-center">Your score is:</p>
+                <p class="text-center scoreDisplay"></p>
+                <button id="retake" class="btn">Retake Quiz</button>
+
             </div>
         </form>
     </div>
