@@ -2,7 +2,7 @@ body {
     line-height: 1.1em;
     letter-spacing: 2px;
     background-image: url("https://i.pinimg.com/564x/c6/30/2a/c6302a3b181bca1ff5106292a897e312.jpg");
-    font-family:Lucida Sans;
+    font-family: Lucida Sans;
     font-size: 1.1em;
 }
 
@@ -143,23 +143,27 @@ label {
 
 @media (max-width: 486px) {
     .form-group {
-      line-height: 20px;
+        line-height: 20px;
     }
+
     p {
-      line-height: 20px;
+        line-height: 20px;
     }
+
     .fa-arrow-right {
-      position: absolute;
-      right: 10%;
-      bottom: 3%;
+        position: absolute;
+        right: 10%;
+        bottom: 3%;
     }
+
     #arrow-left {
-      text-align: left;
-      position: absolute;
-      left: 10%;
-      bottom: 2.5%;
+        text-align: left;
+        position: absolute;
+        left: 10%;
+        bottom: 2.5%;
     }
+
     .name-display {
-      line-height: 1.2em;
+        line-height: 1.2em;
     }
-  }
+}
