@@ -38,3 +38,17 @@ $(function() {
     $("#score").show();
     $("#form2").hide();
     scoreCalculator();
+    var userFirstName = $("#firstName").val();
+    var userSecondName = $("#secondName").val();
+    if(sum <= 30) {
+      $(".name-display").text(`Nice try ${userFirstName} ${userSecondName},`);
+    } else {
+      $(".name-display").text(`Congratulations ${userFirstName} ${userSecondName},`);
+    }
+    $(".scoreDisplay").text(sum + "/60");
+  })
+  $("#retake").click(function(event) {
+    event.preventDefault();
+    location.reload();
+  })
+})
