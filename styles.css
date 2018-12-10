@@ -1,68 +1,80 @@
 body {
     line-height: 1.1em;
     letter-spacing: 2px;
-    background-image:url("https://i.pinimg.com/564x/c6/30/2a/c6302a3b181bca1ff5106292a897e312.jpg");
+    background-image: url("https://i.pinimg.com/564x/c6/30/2a/c6302a3b181bca1ff5106292a897e312.jpg");
     font-family: Poriet One;
     font-size: 1.1em;
-  }
-  h1 {
+}
+
+h1 {
     padding-top: 10px;
     font-family: Walter Turncoat;
-  }
+}
 
-  form p {
+form p {
     text-align: left;
-  }
-  .container {
+}
+
+.container {
     text-align: center;
-  }
-  form {
+}
+
+form {
     padding: 30px;
     padding-bottom: 15px;
     width: 60%;
     border-radius: 10px;
-    background:#ECF0F1;
+    background: #ECF0F1;
     margin: 2% auto;
     position: relative;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     /* line-height: 20px; */
     text-align: left;
-  }
-  #no-name {
+}
+
+#no-name {
     display: none;
     margin-top: 2%;
-  }
-  #no-name span {
+}
+
+#no-name span {
     color: #4286f4;
-  }
-  #start-btn, #retake, #submit {
+}
+
+#start-btn,
+#retake,
+#submit {
     color: white;
     background: #4286f4;
     outline-style: none;
-  }
-  #start-btn:hover,
-  #retake:hover,
-  #submit:hover {
+}
+
+#start-btn:hover,
+#retake:hover,
+#submit:hover {
     background: white;
     color: #4286f4;
     border: 1px solid #4286f4;
-  }
-   .inputs {
+}
+
+.inputs {
     position: relative;
     left: 2%;
-  }
-  input[type=radio] {
+}
+
+input[type=radio] {
     display: none;
-  }
-  .arrow:hover {
+}
+
+.arrow:hover {
     font-size: 18px;
     cursor: pointer;
     color: #4286f4;
-  }
-  
-  .circle {
+}
+
+.circle {
     display: inline-block;
     width: 11px;
     height: 11px;
@@ -72,48 +84,83 @@ body {
     top: 0;
     bottom: 0;
     border-radius: 50%;
-  }
-  .circle:hover {
+}
+
+.circle:hover {
     background: #4286f4;
-  }
-  input[type=radio]:checked + .circle {
-    background: #4286f4;;
-  }
-  .arrow {
+}
+
+input[type=radio]:checked+.circle {
+    background: #4286f4;
+    ;
+}
+
+.arrow {
     text-align: right;
     padding-right: 50px;
     display: inline-block;
-  }
-  .fa-arrow-right {
+}
+
+.fa-arrow-right {
     position: absolute;
     right: 10%;
     bottom: 5%;
-  }
-  #arrow-left {
+}
+
+#arrow-left {
     text-align: left;
     position: absolute;
     left: 10%;
     bottom: 4%;
-  }
-  #form2,#form1 {
+}
+
+#form2,
+#form1 {
     display: none;
-  }
-  label {
+}
+
+label {
     margin-left: 10px;
     letter-spacing: 2px;
-  }
-  #score {
+}
+
+#score {
     display: none;
-  } 
-  .name-display {
+}
+
+.name-display {
     font-size: 27px;
     font-family: Walter Turncoat;
-  }
-  .scoreDisplay {
+}
+
+.scoreDisplay {
     font-size: 25px;
     font-family: Walter Turncoat;
-  }
-  .enter-name {
+}
+
+.enter-name {
     border: 1px solid red;
+}
+
+@media (max-width: 486px) {
+    .form-group {
+      line-height: 20px;
+    }
+    p {
+      line-height: 20px;
+    }
+    .fa-arrow-right {
+      position: absolute;
+      right: 10%;
+      bottom: 3%;
+    }
+    #arrow-left {
+      text-align: left;
+      position: absolute;
+      left: 10%;
+      bottom: 2.5%;
+    }
+    .name-display {
+      line-height: 1.2em;
+    }
   }
-  
