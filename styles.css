@@ -1,0 +1,11 @@
+body {
+    line-height: 1.1em;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    font-family: Poriet One;
+    font-size: 1.1em;
+  }
+  h1 {
+    padding-top: 10px;
+    font-family: Walter Turncoat;
+  }
