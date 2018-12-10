@@ -18,9 +18,9 @@ Quiz-Board is a web app that allows anyone to attempt a few questions to test th
 ## Program Behaviour
 
 |Behaviour         | Input              | Output   |
+|-----------------:|:----------------:|:------------:|
 
-------------------------------------------------------------------------
-|User does not enter name	|""|	Please ENTER name.Form does not appear|
+|User does not enter name|''|	Please ENTER name.Form does not appear|
 |User enters name	|"Example"|	The form will appear|
 |User answers all questions wrong	|0,0,0,0,0,0	|Nice try{name},your score is 0|
 |User answers 1 question correct	|10,0,0,0,0,0	|Nice try{name},your score is 10|
