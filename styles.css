@@ -2,6 +2,7 @@ h1 {
     font-family: 'lucida sans';
     padding-top: 12px;
 }
+
 body {
     line-height: 1.1em;
     letter-spacing: 2px;
@@ -19,7 +20,30 @@ form {
     padding-bottom: 15px;
     width: 60%;
     border-radius: 10px;
-    background:#ECF0F1;
+    background: #ECF0F1;
     margin: 2% auto;
     position: relative;
-  }
+}
+
+form,
+p {
+    text-align: left;
+}
+
+.form-group {
+    text-align: left;
+}
+
+#no-name {
+    display: none;
+    margin-top: 2%;
+}
+
+#no-name span {
+    color: #4286f4;
+}
+
+label {
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
