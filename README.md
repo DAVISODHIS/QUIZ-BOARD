@@ -9,11 +9,12 @@ Quiz-Board is a web app that allows anyone to attempt a few questions to test th
 
 -----------------------------------------------------------------------------------------------
 ## Technologies Used
-1.HTML
-2.CSS
-3.JAVASCRIPT and JQUERY
-4.BOOTSTRAP
+1. HTML
+2. CSS
+3. JAVASCRIPT and JQUERY
+4. BOOTSTRAP
 
+-----------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------
 ## Program Behaviour
 
@@ -29,3 +30,22 @@ Quiz-Board is a web app that allows anyone to attempt a few questions to test th
 | User answers 5 questions correct	|0,10,10,10,10,10|	Congratulations {name},your score is 50|
 | User answers all questions correct|10,10,10,10,10,10	|Congratulations {name},your score is 60|
 | If the user does not answer a question, it is marked as wrong|	10,10,10,10,10,""	|Congratulations{name},your score is 50|
+
+--------------------------------------------------------------------------------------------------------
+
+## Prerequisites
+
+To clone this project to your local folder, you will first need to install git. Use this command in your terminal $ sudo apt install git-all
+
+-------------------------------------------------------------------------------------------------------
+
+## Setup
+1. To access this project, you will need to clone it.
+2. Use this command in your terminal.git clone https://github.com/DAVISODHIS/QUIZ-BOARD.git
+3. Enjoy
+
+------------------------------------------------------------------------------------------------------
+## Live site
+You can use and view the site through:https://davisodhis.github.io/QUIZ-BOARD/
+
+-------------------------------------------------------------------------------------------------------
