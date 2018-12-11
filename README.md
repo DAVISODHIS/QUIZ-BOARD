@@ -49,3 +49,5 @@ To clone this project to your local folder, you will first need to install git. 
 You can use and view the site through:https://davisodhis.github.io/QUIZ-BOARD/
 
 -------------------------------------------------------------------------------------------------------
+## lincense
+MIT
